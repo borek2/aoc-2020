@@ -14,4 +14,16 @@ internal class Day5Test {
         val expected = 820
         assertEquals(expected, Day5.runFirst(input))
     }
+
+    @Test
+    fun calculateFirst_2() {
+        val expected = 0 * 8 + 0
+        assertEquals(expected, Day5.runFirst(listOf("FFFFFFFLLL")))
+    }
+
+    @Test
+    fun calculateSecond() {
+        val expected = 820
+        assertEquals(expected, Day5.runSecond(input))
+    }
 }
