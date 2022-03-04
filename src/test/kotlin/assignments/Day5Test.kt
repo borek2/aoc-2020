@@ -11,7 +11,7 @@ internal class Day5Test {
 
     @Test
     fun calculateFirst() {
-        val expected = 357
+        val expected = 820
         assertEquals(expected, Day5.runFirst(input))
     }
 }
