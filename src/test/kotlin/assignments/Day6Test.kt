@@ -12,12 +12,12 @@ internal class Day6Test {
     @Test
     fun testFirst() {
         val expected = 11
-        assertEquals(expected, Day6.calculateFirst(input))
+        assertEquals(expected, Day6.part1(input))
     }
 
     @Test
     fun testSecond() {
         val expected = 6
-        assertEquals(expected, Day6.calculateSecond(input))
+        assertEquals(expected, Day6.part2(input))
     }
 }
